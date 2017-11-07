@@ -19,5 +19,6 @@ public class Matrix2_main {
 	        System.out.println("Transpose = "+Arrays.deepToString(mlib.getTranspose(b)));
 	        System.out.println("Cofactor = "+(mlib.getCofactor(c)));
 	        System.out.println("Inverse = "+Arrays.deepToString(mlib.getInverse(c)));
-	     }
+            System.out.println("Solution ="+Arrays.toString(mlib.getSolution(d,e)));	     
+	}
 }
